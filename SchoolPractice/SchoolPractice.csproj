@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Equals.Fody" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Equals.Fody" Version="4.0.2" />
+  </ItemGroup>
 </Project>
